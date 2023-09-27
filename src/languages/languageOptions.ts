@@ -1,7 +1,11 @@
 import {en, es } from "./";
 
-export const dictionaryList = {en, es};
-export const languageOptions = {
-    en: 'English',
-    es: 'Spanish'
+export interface Dictionary {
+    EN: typeof en;
+    ES: typeof es;
 }
+
+export const dictionaryList: Dictionary = {
+    EN: en,
+    ES: es
+};
