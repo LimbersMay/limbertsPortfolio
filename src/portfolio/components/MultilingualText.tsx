@@ -1,8 +1,8 @@
 import {LanguageFormat} from "../../languages";
-import {useLanguage} from "../../hooks";
+import {usePreferencesStore} from "../../hooks";
 
 export const MultilingualText = ({ tid }: { tid: keyof LanguageFormat}) => {
-    const { dictionary } = useLanguage();
+    const { dictionary } = usePreferencesStore();
 
     return dictionary[tid] || tid;
 }
