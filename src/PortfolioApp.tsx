@@ -1,4 +1,4 @@
-import {AppRouter} from "./routes/AppRouter.tsx";
+import {AppRouter} from "./routes";
 
 function PortfolioApp() {
 
