@@ -8,7 +8,7 @@ interface Props {
 export const ProjectCard = ({ project }: Props) => {
 
     return (
-        <div className="flex flex-col justify-between gap-10 bg-slate-100 p-5 sm:flex-row sm:gap-0">
+        <div className="flex flex-col justify-between gap-10 border border-solid border-gray-300 bg-gray-100 p-5 sm:flex-row sm:gap-0">
             { /* Project information */}
             <div className="flex flex-col gap-5">
                 <h2 className="text-xl font-bold">
@@ -23,7 +23,7 @@ export const ProjectCard = ({ project }: Props) => {
                 <div className="flex flex-row flex-wrap gap-5">
                     {
                         project.technologies.map(technology => (
-                            <span key={technology} className="rounded bg-slate-200 px-2 py-1 text-slate-800">
+                            <span key={technology} className="rounded bg-gray-200 px-2 py-1 text-slate-800">
                                 { technology }
                             </span>
                         ))
