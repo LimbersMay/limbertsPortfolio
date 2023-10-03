@@ -3,7 +3,7 @@ import selfPhoto from "../../assets/selfphoto.jpg";
 
 export const AboutCard = () => {
     return (
-        <div className="mt-5 flex flex-col-reverse gap-10 lg:flex-row">
+        <div id="home" className="mt-5 flex flex-col-reverse gap-10 lg:flex-row">
 
             {/* About */}
             <div className="flex flex-col gap-5">
@@ -21,13 +21,13 @@ export const AboutCard = () => {
 
                 { /* Action buttons */}
                 <div className="mt-5 flex flex-row gap-5">
-                    <button className="rounded bg-slate-800 px-4 py-2 text-white hover:bg-slate-900">
+                    <a className="rounded bg-slate-800 px-4 py-2 text-white hover:bg-slate-900">
                         <Text tid="infoCardDownloadCV"/>
-                    </button>
+                    </a>
 
-                    <button className="rounded border border-b-slate-200 px-4 py-2 text-slate-800 hover:bg-gray-100">
+                    <a href="https://github.com/LimbersMay" target="_blank" rel="noreferrer" className="rounded border border-b-slate-200 px-4 py-2 text-slate-800 hover:bg-gray-100">
                         <Text tid="infoCardViewGithub"/>
-                    </button>
+                    </a>
                 </div>
             </div>
 
