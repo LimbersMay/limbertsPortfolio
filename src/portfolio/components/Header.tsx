@@ -20,18 +20,15 @@ export const Header = () => {
 
             { /* Options */}
             <div className="hidden flex-grow justify-end gap-5 font-bold sm:flex">
-                <button className="text-slate-800">
+                <a href="#home" className="text-slate-800">
                     <Text tid="headerHome"/>
-                </button>
-                <button className="text-slate-800">
-                    <Text tid="headerAbout"/>
-                </button>
-                <button className="text-slate-800">
+                </a>
+                <a href="#projects" className="text-slate-800">
                     <Text tid="headerProjects"/>
-                </button>
-                <button className="text-slate-800">
-                    <Text tid="headerContact"/>
-                </button>
+                </a>
+                <a href="#skills" className="text-slate-800">
+                    <Text tid="headerSkills"/>
+                </a>
 
                 { /* Language options */}
                 <div className="flex flex-row items-center gap-1 rounded border border-slate-400">
