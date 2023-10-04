@@ -1,11 +1,14 @@
 import {Text} from "./";
 import {Project} from "../interfaces";
+import {usePreferencesStore} from "../../hooks";
 
 interface Props {
     project: Project;
 }
 
 export const ProjectCard = ({ project }: Props) => {
+
+    const { language } = usePreferencesStore();
 
     return (
         <div className="flex flex-col justify-between gap-10 border border-solid border-gray-300 bg-gray-100 p-5 sm:flex-row sm:gap-0">
@@ -16,7 +19,9 @@ export const ProjectCard = ({ project }: Props) => {
                 </h2>
 
                 <p>
-                    { project.description }
+                    {
+                        project.description[language] || project.description.EN
+                    }
                 </p>
 
                 { /* Project technologies */}
