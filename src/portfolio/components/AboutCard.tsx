@@ -13,10 +13,7 @@ export const AboutCard = () => {
                 </h1>
 
                 <p className="text-lg text-slate-800">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur dolore eaque
-                    eligendi error eum eveniet
-                    excepturi expedita fuga ipsum itaque, modi, nesciunt nisi placeat repudiandae temporibus veniam
-                    vero voluptatum.
+                    <Text tid="infoCardDescription"/>
                 </p>
 
                 { /* Action buttons */}
