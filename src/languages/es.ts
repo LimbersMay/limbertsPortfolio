@@ -20,6 +20,7 @@ export const es: LanguageFormat = {
 
     // Projects section - Project card
     projectCardViewProject: "Ver proyecto",
+    projectCardViewNotAvailable: "No disponible",
 
     // Skills section
     skillsTitle: "Habilidades",

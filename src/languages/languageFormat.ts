@@ -24,6 +24,7 @@ export interface LanguageFormat {
 
     // Projects section - Project card
     projectCardViewProject: string;
+    projectCardViewNotAvailable: string;
 
     // Skills section
     skillsTitle: string;
