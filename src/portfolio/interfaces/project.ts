@@ -1,7 +1,10 @@
 
 export interface Project {
     title: string;
-    description: string;
+    description: {
+        EN: string;
+        ES: string;
+    };
     imageURL: string;
     technologies: string[];
     linkToProject: string;
