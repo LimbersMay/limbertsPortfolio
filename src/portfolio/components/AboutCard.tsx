@@ -18,9 +18,9 @@ export const AboutCard = () => {
 
                 { /* Action buttons */}
                 <div className="mt-5 flex flex-row gap-5">
-                    <a className="rounded bg-slate-800 px-4 py-2 text-white hover:bg-slate-900">
+                    <button className="rounded bg-slate-800 px-4 py-2 text-white hover:bg-slate-900">
                         <Text tid="infoCardDownloadCV"/>
-                    </a>
+                    </button>
 
                     <a href="https://github.com/LimbersMay" target="_blank" rel="noreferrer" className="rounded border border-b-slate-200 px-4 py-2 text-slate-800 hover:bg-gray-100">
                         <Text tid="infoCardViewGithub"/>
