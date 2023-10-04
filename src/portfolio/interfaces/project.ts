@@ -8,4 +8,5 @@ export interface Project {
     imageURL: string;
     technologies: string[];
     linkToProject: string;
+    isAvailableToPreview: boolean;
 }
