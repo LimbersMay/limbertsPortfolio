@@ -3,6 +3,17 @@ import {Project, SkillGroup} from "../interfaces";
 
 const projects: Project[] = [
     {
+        title: "Retabs - Save & Restore your Tabs",
+        description: {
+            EN: "Retabs is a chrome extension that allows you to save your current tabs and restore them later. It saves your tabs in the localStorage of your browser and it also saves them in your chrome account",
+            ES: "Retabs es una extensión de chrome que te permite guardar tus pestañas actuales y restaurarlas más tarde. Guarda tus pestañas en el localStorage de tu navegador y también las guarda en tu cuenta de chrome"
+        },
+        imageURL: "https://picsum.photos/200/300",
+        linkToProject: "https://chrome.google.com/webstore/detail/retabs-save-restore-your/nehkibjcpghebkinbohilcpmdbkbhjdd",
+        technologies: ["React", "JavaScript", "Redux"],
+        isAvailableToPreview: true
+    },
+    {
         title: "Webnotes",
         description: {
             EN: "Webnotes is a web application that allows you to create notes and save them in your account. This was my first full stack project and I learned a lot from it",
@@ -10,7 +21,8 @@ const projects: Project[] = [
         },
         imageURL: "https://picsum.photos/200/300",
         linkToProject: "https://www.google.com",
-        technologies: ["Node", "Express", "MongoDB", "HTML5", "CSS3", "JavaScript"]
+        technologies: ["NodeJS", "Express", "MongoDB", "HTML5", "CSS3", "JavaScript"],
+        isAvailableToPreview: false
     },
     {
         title: "EasyQrAttendance",
@@ -20,8 +32,9 @@ const projects: Project[] = [
         },
         imageURL: "https://picsum.photos/200/300",
         linkToProject: "",
-        technologies: ["React", "TypeScript", "Node", "Express", "Redux", "Mysql"]
-    },
+        technologies: ["React", "TypeScript", "NodeJS", "Express", "Redux", "Mysql"],
+        isAvailableToPreview: false
+    }
 ]
 
 const skillGroups: SkillGroup[] = [
