@@ -38,10 +38,19 @@ export const ProjectCard = ({ project }: Props) => {
                 { /* Project action buttons */}
                 <div className="mt-5 flex flex-row gap-5">
                     <a
-                        className="flex flex-row items-center gap-2 rounded bg-slate-800 px-4 py-2 text-white hover:bg-slate-900"
+                        className={`
+                            ${ project.isAvailableToPreview ? "bg-slate-800" : "pointer-events-none bg-slate-600 " }
+                            flex flex-row items-center gap-2 rounded px-4 py-2 text-white hover:bg-slate-90
+                        `}
                         href={ project.linkToProject }
+                        target="_blank"
+                        rel="noreferrer"
                     >
-                        <Text tid="projectCardViewProject"/>
+                        {
+                            project.isAvailableToPreview ?
+                                (<Text tid="projectCardViewProject" />) :
+                                (<Text tid="projectCardViewNotAvailable" />)
+                        }
 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                              stroke="currentColor" className="h-5 w-5">
