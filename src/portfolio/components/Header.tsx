@@ -29,6 +29,9 @@ export const Header = () => {
                 <a href="#skills" className="text-slate-800">
                     <Text tid="headerSkills"/>
                 </a>
+                <a href="#contact">
+                    <Text tid="headerContact"/>
+                </a>
 
                 { /* Language options */}
                 <div className="flex flex-row items-center gap-1 rounded border border-slate-400">
