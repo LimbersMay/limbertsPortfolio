@@ -1,7 +1,5 @@
-import {AboutCard, Header, ProjectsSection, SkillsSection} from "../components";
-import {Project} from "../interfaces";
-import {SkillGroup} from "../interfaces/skillGroup.ts";
-import {ContactSection} from "../components/ContactSection.tsx";
+import {AboutCard, ContactSection, Header, ProjectsSection, SkillsSection} from "../components";
+import {Project, SkillGroup} from "../interfaces";
 
 const projects: Project[] = [
     {
@@ -196,6 +194,7 @@ export const HomePage = () => {
 
             <SkillsSection skillGroups={skillGroups}/>
 
+            {/* eslint-disable-next-line react/jsx-no-undef */}
             <ContactSection />
         </div>
     )
