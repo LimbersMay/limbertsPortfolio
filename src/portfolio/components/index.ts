@@ -6,3 +6,5 @@ export * from './ProjectsSection';
 export * from './SkillCard.tsx';
 export * from './SkillsSection';
 export * from './SkillsGroup.tsx';
+export * from './ContactSection';
+export * from './ContactCard.tsx';
