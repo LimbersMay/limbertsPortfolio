@@ -26,4 +26,10 @@ export const en: LanguageFormat = {
     skillsFrontendTitle: "Frontend",
     skillsBackendTitle: "Backend",
     skillsToolsTitle: "Tools",
+
+    // Contact section
+    contactTitle: "Contact",
+    contactName: "Name",
+    contactEmail: "Email",
+    contactSendEmail: "Send Email",
 }

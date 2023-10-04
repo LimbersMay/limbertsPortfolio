@@ -30,4 +30,10 @@ export interface LanguageFormat {
     skillsFrontendTitle: string;
     skillsBackendTitle: string;
     skillsToolsTitle: string;
+
+    // Contact section
+    contactTitle: string;
+    contactName: string;
+    contactEmail: string;
+    contactSendEmail: string;
 }
