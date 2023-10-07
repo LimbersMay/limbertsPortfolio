@@ -27,7 +27,7 @@ export const usePreferencesStore = () => {
 
     const changeLanguage = (language: keyof Dictionary) => {
         dispatch(setLanguage(language));
-        dispatch(setDictionary(dictionaryList[language]));
+        localStorage.setItem("language", language);
     }
 
     return {

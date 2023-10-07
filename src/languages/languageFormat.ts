@@ -5,9 +5,36 @@
  */
 
 export interface LanguageFormat {
-    title: string;
-    subtitle: string;
-    shortDescription: string;
-    longDescription: string;
-    contactButton: string;
+    // header
+    headerHome: string;
+    headerAbout: string;
+    headerProjects: string;
+    headerSkills: string;
+    headerContact: string;
+
+    // Info card
+    infoCardDescription: string;
+    infoCardDownloadCV: string;
+    infoCardViewGithub: string;
+    infoCardTitle: string;
+
+    // Projects section
+    projectsTitle: string;
+    projectsDescription: string;
+
+    // Projects section - Project card
+    projectCardViewProject: string;
+    projectCardViewNotAvailable: string;
+
+    // Skills section
+    skillsTitle: string;
+    skillsFrontendTitle: string;
+    skillsBackendTitle: string;
+    skillsToolsTitle: string;
+
+    // Contact section
+    contactTitle: string;
+    contactName: string;
+    contactEmail: string;
+    contactSendEmail: string;
 }

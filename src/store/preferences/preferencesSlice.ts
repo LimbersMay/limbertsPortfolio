@@ -9,7 +9,7 @@ interface PreferencesState {
 
 const initialState: PreferencesState = {
     language: 'ES',
-    dictionary: dictionaryList['ES']
+    dictionary: dictionaryList.ES
 }
 
 export const preferencesSlice = createSlice({
