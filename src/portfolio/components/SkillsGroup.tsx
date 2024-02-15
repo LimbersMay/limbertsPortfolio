@@ -8,7 +8,7 @@ export const SkillsGroup = ({ skills, title }: SkillGroup) => {
                 <Text tid={title}/>
             </h2>
 
-            <div className="mb-10 grid grid-cols-2 md:grid-cols-5 gap-5">
+            <div className="mb-10 grid grid-cols-2 gap-5 md:grid-cols-5">
                 {
                     skills.map(({name, level, imageURL}) => (
                         <SkillCard key={name} name={name} level={level} imageURL={imageURL} alt={name}/>
