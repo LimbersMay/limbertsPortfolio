@@ -1,5 +1,6 @@
 import {Text} from "./";
 import selfPhoto from "../../assets/selfphoto.jpg";
+import portfolioPdf from '../../assets/LimbertOtoniel_MayEk_CV.pdf';
 
 export const AboutCard = () => {
     return (
@@ -18,9 +19,9 @@ export const AboutCard = () => {
 
                 { /* Action buttons */}
                 <div className="mt-5 flex flex-row gap-5">
-                    <button className="rounded bg-slate-800 px-4 py-2 text-white hover:bg-slate-900">
+                    <a className="rounded bg-slate-800 px-4 py-2 text-white hover:bg-slate-900" download="LimbertPortfolio" href={portfolioPdf}>
                         <Text tid="infoCardDownloadCV"/>
-                    </button>
+                    </a>
 
                     <a href="https://github.com/LimbersMay" target="_blank" rel="noreferrer" className="rounded border border-b-slate-200 px-4 py-2 text-slate-800 hover:bg-gray-100">
                         <Text tid="infoCardViewGithub"/>
