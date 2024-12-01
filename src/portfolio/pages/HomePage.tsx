@@ -3,6 +3,17 @@ import {Project, SkillGroup} from "../interfaces";
 
 const projects: Project[] = [
     {
+        title: "EasyWebstore - Create your own web store",
+        description: {
+            ES: "EasyWebstore es una aplicación web que te permite crear tu propia tienda en línea. Puedes crear productos, categorías, controlar el stock, vincular tu tienda con tu número de WhatsApp y más",
+            EN: "EasyWebstore is a web application that allows you to create your own online store. You can create products, categories, control the stock, link your store with your WhatsApp number and more"
+        },
+        imageURL: "https://picsum.photos/200/300",
+        linkToProject: "https://easywebstore.netlify.app/store/dxaL0IW44ORzawFdKnL1xRjAEp02",
+        technologies: ["React", "TypeScript", "Redux", "Firebase", "Tailwind CSS"],
+        isAvailableToPreview: true
+    },
+    {
         title: "Retabs - Save & Restore your Tabs",
         description: {
             EN: "Retabs is a chrome extension that allows you to save your current tabs and restore them later. It saves your tabs in the localStorage of your browser and it also saves them in your chrome account",
@@ -74,6 +85,14 @@ const skillGroups: SkillGroup[] = [
                 imageURL: "https://www.svgrepo.com/show/353925/javascript.svg",
             },
             {
+                name: "C#",
+                level: {
+                    EN: "intermediate",
+                    ES: "intermedio"
+                },
+                imageURL: "https://www.svgrepo.com/show/353622/c-sharp.svg",
+            },
+            {
                 name: "MongoDB",
                 level: {
                     EN: "intermediate",
@@ -88,6 +107,14 @@ const skillGroups: SkillGroup[] = [
                     ES: "intermedio"
                 },
                 imageURL: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+            },
+            {
+                name: "Firebase",
+                level: {
+                    EN: "intermediate",
+                    ES: "intermedio"
+                },
+                imageURL: "https://www.svgrepo.com/show/353735/firebase.svg",
             },
             {
                 name: "ASP.NET Core",
